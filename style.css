@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+header{
+    padding: 45px 0;
+    border-bottom: 2px solid #DEDBDB;
+
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.header-right i{
+    font-size: 24px;
+    color: #F0400F;
+}
+
+
+main{
+    background: #FAFAFA;
+    padding: 45px;
+    height: 100vh;
+}
+
+.box{
+    width: 650px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    padding: 66px 66px 20px 66px;
+    margin: 0 auto;
+
+}
+
+
+.box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.box-top h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: orangered;
+}
+
+
+h1 {
+
+font-size: 48px;
+font-weight: 700;
+line-height: 58.09px;
+text-align: center;
+color: #0E0D5d;
+margin-top: 50px;
+
+}
+
+
+
+.parents{
+    background-color: #F5F5F5;
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 8px 11px;
+    gap: 42px;
+    margin-top: 30px
+}
+
+
+
+.parents p{
+    background-color: white;
+    width: 255px;
+    height: 54px;
+    border-radius: 20px;
+    font-family: inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.parents span{
+    font-family: Inter;
+font-size: 28px;
+font-weight: 500;
+line-height: 33.89px;
+color: #757575;
+;
+}
+
+
+
+
+
+
+
+input{
+    padding: 20px 50px;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+color: #757575B2;
+background: #FAFAFA;
+border: 1px solid #75757530;
+width: 533px;
+height: 70px;
+border-radius: 20px;
+margin-top: 25px;
+outline: none;
+}
+
+#eye{
+    font-size: 24px;
+    margin-left: -70px;
+}
+
+.btn{
+    padding: 17px 23px;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29.05px;
+color: white;
+background: #F69E86;
+border-radius: 20px;
+border: none;
+margin-top: 30px;
+margin-left: 330px;
+
+}
+
+.qr{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29.05px;
+text-align:center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+te
+}
